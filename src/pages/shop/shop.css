@@ -1,0 +1,19 @@
+.products{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  .product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product img{
+    width:400px;
+  }
+  .product.description{
+    text-align: center;
+  }
